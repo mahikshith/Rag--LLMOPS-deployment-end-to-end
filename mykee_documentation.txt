@@ -1,0 +1,33 @@
+pip install uv 
+
+uv --version [to check the version and to know whether uv is installed or not] 
+
+uv init .  [this intializes python project]
+
+uv venv mykee [create a new environment] 
+
+mykee\Scripts\activate [activates environment] 
+
+uv add --active -r requirements.txt  [Adds requirements.txt to already exisitng environment and install the modules inside that file] 
+
+uv add -r requirements.txt [does the exact same thing except it directly creates the environment]
+
+all those dependencies will be added to .toml file  
+
+uv.lock acts like a blue print to ensure reproducabiluty and consistency among environments
+
+If there are inconsistency in packages among ur virtual env and uv.lock  then we just need to give uv sync 
+
+uv add --active packagename [adds the package to env] 
+
+data folder [it just stores the user uploaded docs , and generated docs  for each session] 
+
+notebook folder [experimentation] 
+
+static [css]  
+
+template [front end html] 
+
+test [to run tests on the application]
+
+multi_doc [all the configs , logger etc] 
