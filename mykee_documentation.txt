@@ -30,4 +30,8 @@ template [front end html]
 
 test [to run tests on the application]
 
-multi_doc [all the configs , logger etc] 
+multi_doc [all the configs , logger  (modular files) etc] 
+
+Notebook : U need to select a jupyter environment , just download ipynb kernal in the environment and select that kernal for the current jupyter notebook 
+
+
